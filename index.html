@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html >
   <head>
+      
+      
+
+
+  <SCRIPT language=JavaScript>
+
+
+
+var message = "Right-click disabled. Thanks.";
+
+function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+
+if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+
+document.onmousedown = rtclickcheck;
+
+</SCRIPT>
+      
+      
     <meta charset="UTF-8">
       
         <meta name="description" content="We are a not-for-profit organization whose main objective is to identify needy, brilliant school children and provide a solution to their needs in education. We have 10 lovely kids aged 6 – 12 years old who are benefitting from our work at Nyagbo-Odumase in Ghana.
