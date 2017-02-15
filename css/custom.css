@@ -1,11 +1,4 @@
-@media only screen and (max-width: 320px) {
 
-   .main-text-1 {
-     font-size: 70px ! important; font-family: 'Raleway', sans-serif ! important; font-weight: 800 ! important; color: white;
-}
-
-
-}
 
 
 .link-text-1 {
@@ -123,4 +116,16 @@ footer {
 
 .table-text {
         font-family: 'Josefin Slab', serif; font-size: 17px;
+}
+
+
+
+
+@media only screen and (max-width: 320px) {
+
+   .main-text-1 {
+     font-size: 70px ! important; font-family: 'Raleway', sans-serif ! important; font-weight: 800 ! important; color: white;
+}
+
+
 }
