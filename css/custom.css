@@ -180,6 +180,8 @@ footer {
     .modal-title {
  display: none;
 }
-    
+
+    .close-close {
+        display: none;
     
 }
