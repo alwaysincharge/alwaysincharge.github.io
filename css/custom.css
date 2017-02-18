@@ -9,6 +9,11 @@
      font-family: 'Josefin Slab', serif;
     font-weight: bold;
 }
+.toggle {
+    color: black;
+    cursor: pointer;
+}
+
 
 
 
@@ -64,6 +69,14 @@
          font-family: 'Josefin Slab', serif;
     font-weight: bold;
 }
+
+
+.head-1-y {
+        font-size: 20px;
+         font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+}
+
 
 
 .head-2-x {
@@ -176,8 +189,13 @@ footer {
     font-weight: bold;
 }
 
+    .selection {
+    display: none;
+}
     
-    
+    .heading-list {
+        display: none;
+    }
     
     .modal-title {
  display: none;
