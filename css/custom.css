@@ -86,6 +86,17 @@
     margin-top: 40px ! important;
 }
 
+
+.pagination {
+    font-size: 20px ! important;
+         font-family: 'Josefin Slab', serif ! important;
+    font-weight: bold ! important; 
+}
+
+.result-row {
+    width: 100%; border-radius: 5px; background: #e0e0ff; padding-top: 15px; padding-left: 15px; margin-top: 20px;
+}
+
 .head-1-a-x {
         font-size: 27px ! important;
          font-family: 'Josefin Slab', serif ! important;
