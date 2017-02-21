@@ -86,15 +86,29 @@
     margin-top: 40px ! important;
 }
 
-.head-1-a {
-        font-size: 20px ! important;
+.head-1-a-x {
+        font-size: 27px ! important;
          font-family: 'Josefin Slab', serif ! important;
     font-weight: bold ! important;
-    margin-left: 0px ! important;
-    margin-top: 20px ! important;
+    margin-left: 10px ! important;
+    margin-top: 0px ! important;
+}
+
+.result-1 {
+     font-size: 17px ! important;
+         font-family: 'Josefin Slab', serif ! important;
+    font-weight: bold ! important;
 }
 
 
+.result-2 {
+     font-size: 17px ! important;
+         font-family: 'Josefin Slab', serif ! important;
+    font-weight: bold ! important;
+    background: #ffff99;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
 
 .head-2-x {
         font-size: 30px;
