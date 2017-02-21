@@ -135,7 +135,7 @@ label {
 
 
 .caption {
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Josefin Slab', serif ! important;
 font-size: 20px;
     font-weight: bold;
 }
