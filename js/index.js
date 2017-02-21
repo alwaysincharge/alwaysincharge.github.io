@@ -90,11 +90,11 @@ $(document).ready(function() {
     prefix: '$'
   });
   noUiSlider.create(rangeSlider, {
-    start: [0, 80000],
+    start: [0, 100000],
     step: 1,
     range: {
       'min': [0],
-      'max': [80000]
+      'max': [100000]
     },
     format: moneyFormat,
     connect: true
@@ -132,11 +132,11 @@ $(document).ready(function() {
     prefix: '$'
   });
   noUiSlider.create(rangeSlider, {
-    start: [0, 80000],
+    start: [0, 300],
     step: 1,
     range: {
       'min': [0],
-      'max': [80000]
+      'max': [300]
     },
     format: moneyFormat,
     connect: true
@@ -169,16 +169,16 @@ $(document).ready(function() {
   });
   var rangeSlider = document.getElementById('slider-range-a');
   var moneyFormat = wNumb({
-    decimals: 0,
+    decimals: 1,
     thousand: ',',
-    prefix: '$'
+    prefix: ''
   });
   noUiSlider.create(rangeSlider, {
-    start: [0, 80000],
+    start: [0, 4],
     step: 1,
     range: {
       'min': [0],
-      'max': [80000]
+      'max': [4]
     },
     format: moneyFormat,
     connect: true
@@ -197,40 +197,6 @@ $(document).ready(function() {
 
 
 
-
-
-// Initialize slider:
-$(document).ready(function() {
-  $('.noUi-handle').on('click', function() {
-    $(this).width(50);
-  });
-  var rangeSlider = document.getElementById('slider-range-x');
-  var moneyFormat = wNumb({
-    decimals: 0,
-    thousand: ',',
-    prefix: '$'
-  });
-  noUiSlider.create(rangeSlider, {
-    start: [0, 80000],
-    step: 1,
-    range: {
-      'min': [0],
-      'max': [80000]
-    },
-    format: moneyFormat,
-    connect: true
-  });
-  
-  // Set visual min and max values and also update value hidden form inputs
-  rangeSlider.noUiSlider.on('update', function(values, handle) {
-    document.getElementById('slider-range-value1-x').innerHTML = values[0];
-    document.getElementById('slider-range-value2-x').innerHTML = values[1];
-    document.getElementsByName('min-value').value = moneyFormat.from(
-      values[0]);
-    document.getElementsByName('max-value').value = moneyFormat.from(
-      values[1]);
-  });
-});
 
 
 
