@@ -98,9 +98,9 @@
 }
 
 .noUi-horizontal .noUi-handle {
-  width: 18px;
+  width: 18px ! important;
   height: 18px;
-  border-radius: 50%;
+  border-radius: 50% ! important;
   left: -7px;
   top: -7px;
   background-color: #345DBB;

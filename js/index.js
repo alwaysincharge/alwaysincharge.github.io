@@ -52,11 +52,11 @@ $(document).ready(function() {
     prefix: '$'
   });
   noUiSlider.create(rangeSlider, {
-    start: [0, 80000],
+    start: [0, 70000],
     step: 1,
     range: {
       'min': [0],
-      'max': [80000]
+      'max': [70000]
     },
     format: moneyFormat,
     connect: true
@@ -66,9 +66,9 @@ $(document).ready(function() {
   rangeSlider.noUiSlider.on('update', function(values, handle) {
     document.getElementById('slider-range-value1-x').innerHTML = values[0];
     document.getElementById('slider-range-value2-x').innerHTML = values[1];
-    document.getElementsByName('min-value').value = moneyFormat.from(
+    document.getElementsByName('min-value-x').value = moneyFormat.from(
       values[0]);
-    document.getElementsByName('max-value').value = moneyFormat.from(
+    document.getElementsByName('max-value-x').value = moneyFormat.from(
       values[1]);
   });
 });
@@ -104,9 +104,9 @@ $(document).ready(function() {
   rangeSlider.noUiSlider.on('update', function(values, handle) {
     document.getElementById('slider-range-value1-y').innerHTML = values[0];
     document.getElementById('slider-range-value2-y').innerHTML = values[1];
-    document.getElementsByName('min-value').value = moneyFormat.from(
+    document.getElementsByName('min-value-y').value = moneyFormat.from(
       values[0]);
-    document.getElementsByName('max-value').value = moneyFormat.from(
+    document.getElementsByName('max-value-y').value = moneyFormat.from(
       values[1]);
   });
 });
@@ -146,9 +146,9 @@ $(document).ready(function() {
   rangeSlider.noUiSlider.on('update', function(values, handle) {
     document.getElementById('slider-range-value1-z').innerHTML = values[0];
     document.getElementById('slider-range-value2-z').innerHTML = values[1];
-    document.getElementsByName('min-value').value = moneyFormat.from(
+    document.getElementsByName('min-value-z').value = moneyFormat.from(
       values[0]);
-    document.getElementsByName('max-value').value = moneyFormat.from(
+    document.getElementsByName('max-value-z').value = moneyFormat.from(
       values[1]);
   });
 });
@@ -188,9 +188,9 @@ $(document).ready(function() {
   rangeSlider.noUiSlider.on('update', function(values, handle) {
     document.getElementById('slider-range-value1-a').innerHTML = values[0];
     document.getElementById('slider-range-value2-a').innerHTML = values[1];
-    document.getElementsByName('min-value').value = moneyFormat.from(
+    document.getElementsByName('min-value-a').value = moneyFormat.from(
       values[0]);
-    document.getElementsByName('max-value').value = moneyFormat.from(
+    document.getElementsByName('max-value-a').value = moneyFormat.from(
       values[1]);
   });
 });
