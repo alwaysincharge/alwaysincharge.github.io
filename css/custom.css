@@ -124,6 +124,89 @@ label {
     font-weight: bold;
 }
 
+
+
+
+
+.placeholder-style::-webkit-input-placeholder {
+    color: #9e9e9e;
+ font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    text-transform: initial;
+    
+    
+}
+
+.placeholder-style::-moz-placeholder {
+    color: #9e9e9e;
+ font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    text-transform: initial; 
+}
+
+/* firefox 19+ */
+.placeholder-style:-ms-input-placeholder {
+    color: #9e9e9e;
+ font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    text-transform: initial;  
+}
+
+/* ie */
+input:-moz-placeholder {
+    color: #9e9e9e;
+ font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    text-transform: initial;  
+}
+
+/* individual: webkit */
+.placeholder-style::-webkit-input-placeholder {
+    color: #9e9e9e;
+ font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    text-transform: initial;  
+}
+
+.placeholder-style::-webkit-input-placeholder {
+    color: #9e9e9e;
+    text-transform: lowercase;
+ font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    text-transform: initial; 
+}
+
+.placeholder-style::-webkit-input-placeholder {
+    color: #9e9e9e;
+ font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    text-transform: initial;  
+}
+
+/* individual: mozilla */
+.placeholder-style::-moz-placeholder {
+    color: #9e9e9e;
+ font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    text-transform: initial;  
+}
+
+.placeholder-style::-moz-placeholder {
+    color: #9e9e9e;
+    text-transform: lowercase;
+ font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    text-transform: initial;  
+}
+
+.placeholder-style::-moz-placeholder {
+    color: #9e9e9e;
+ font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    text-transform: initial;  
+}
+        
+
 .white-text {
       font-family: 'Josefin Slab', serif;
 
