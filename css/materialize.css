@@ -2146,7 +2146,7 @@
  *    without disabling user zoom.
  */
 html {
-  font-family: sans-serif;
+  font-family: 'Josefin Slab', serif ! important;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -2159,6 +2159,7 @@ html {
  */
 body {
   margin: 0;
+    font-family: 'Josefin Slab', serif ! important;
 }
 
 /* HTML5 display definitions
