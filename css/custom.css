@@ -132,6 +132,7 @@
     font-weight: bold ! important;
     margin-left: 10px ! important;
     margin-top: 0px ! important;
+    display: inline;
 }
 
 
@@ -290,7 +291,12 @@ input:-moz-placeholder {
     font-size: 22px;
     text-transform: initial;  
 }
-        
+   
+
+.but-x {
+    display: inline; padding: 5px; border-radius: 5px; margin-bottom: 30px; margin-left: 30px; float: right; margin-right: 30px; font-weight: bold; color: #36a2eb; border: 1px solid #36a2eb;
+}
+
 
 .white-text {
       font-family: 'Josefin Slab', serif;
